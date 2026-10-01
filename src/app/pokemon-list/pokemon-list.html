@@ -1,0 +1,14 @@
+<h2>My Favorite Pokémon</h2>
+
+<div class="pokemon-grid">
+  @for (pokemon of pokemon; track pokemon.name) {
+    <div class="pokemon-card">
+      <h3>{{ pokemon.name }}</h3>
+
+      <p><strong>Region:</strong> {{ pokemon.region }}</p>
+      <p><strong>Type:</strong> {{ pokemon.type }}</p>
+      <p><strong>Held Item:</strong> {{ pokemon.heldItem }}</p>
+      <p>{{ pokemon.description }}</p>
+    </div>
+  }
+</div>
