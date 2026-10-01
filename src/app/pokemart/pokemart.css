@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.shop-item {
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.shop-item h3 {
+  margin-top: 0;
+}
+
+.shop-item button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

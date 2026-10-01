@@ -1,0 +1,14 @@
+<h2>PokéMart</h2>
+
+<div class="shop-grid">
+  @for (item of items; track item.name) {
+    <div class="shop-item">
+      <h3>{{ item.name }}</h3>
+
+      <p><strong>Price:</strong> ₽{{ item.price }}</p>
+      <p>{{ item.description }}</p>
+
+      <button>Add to Cart</button>
+    </div>
+  }
+</div>
