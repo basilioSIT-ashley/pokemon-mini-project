@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { PokemonList } from './pokemon-list/pokemon-list';
-import { PokemartComponent } from './pokemart/pokemart';
+import { MenuComponent } from './menu/menu';
+import { CartComponent } from './cart/cart';
 
 @Component({
   selector: 'app-root',
-  imports: [PokemonList, PokemartComponent],
+  imports: [MenuComponent, CartComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
